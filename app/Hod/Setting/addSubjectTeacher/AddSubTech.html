@@ -1,32 +1,40 @@
 <div class="col-md-offset-5 col-md-5">
     <span> <font size="5"> Add Subject To Teacher</font> </span></div>
 <div class="col-md-offset-5 col-md-5">
-    <select class="S-Y-W-25">
-    
-  <option value="Select Semester" active>Select Semester</option>
-    <option value="1 Sem">1 Semester</option>
-    <option value="2 Sem">2 Semester</option>
-    <option value="3 Sem">3 Semester</option>
-    <option value="4 Sem">4 Semester</option>
-    <option value="5 Sem">5 Semester</option>
-    <option value="6 Sem">6 Semester</option>
-    
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Semester   
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Select Semester</li>
+    <li> <a href="#">1 Semester </a></li>
+    <li> <a href="#">2 Semester </a></li>
+    <li> <a href="#">3 Semester </a></li>
+    <li> <a href="#">4 Semester </a></li>
+    <li> <a href="#">5 Semester </a></li>
+    <li> <a href="#">6 Semester </a></li>
+     </ul>
+  </div>
+  
 
-    </select>
+
   <div style="padding-top: 10px;">
-    <select class="S-Y-W-25">
-        <option value="Select Track" active>Select Track</option>
-        <option value="Track 1">Track 1</option>
-        <option value="Track 2">Track 2</option>
-        <option value="Track 3">Track 3</option>
-        <option value="Track 4">Track 4</option>
-    </select>
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Track
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Select Track</li>
+      <li><a href="#">Track 1</a></li>
+      <li><a href="#">Track 2</a></li>
+      <li><a href="#">Track 3</a></li>
+      <li><a href="#">Track 4</a></li>
+    </ul>
+  </div>
     </div>
     <div style="padding-top: 10px;">
         <input type="text" name="Teacher Name" placeholder="Teacher Name" class="S-Y-W-25">
     </div>
     <div style="padding-top: 10px;">
-    <button class="btn btn-primary">Allocate</button>
+    <button type="button" class="btn btn-outline-primary btn_default">Allocate</button>
     </div>
 </div>
 </div>
